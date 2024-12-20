@@ -14,6 +14,12 @@ public abstract class Entity {
         hp = HP;
         dmg = DMG;
     }
-    int getHealth(){return hp;}
+
+
+    public void increasedDmg(int add){
+        dmg += add;
+    }
+
+    public int getHealth(){return hp;}
 
 }
